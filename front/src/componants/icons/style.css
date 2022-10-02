@@ -1,0 +1,11 @@
+.home-icon{
+    fill: #fff;
+    height: 30px;
+    width: 30px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 100;
+    margin: 0 5px;
+}
+.home-icon path{
+    fill-opacity: 0.2;
+}

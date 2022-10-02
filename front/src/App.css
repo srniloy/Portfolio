@@ -1,0 +1,127 @@
+
+
+:root{
+    --clr-1: #004c8b;
+    --clr-2: #008b8b;
+    --clr-3: #E1160A;
+}
+body{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto';
+    /* background-color: #2d3031; */
+    /* background-color: #041420; */
+
+}
+.S-word{
+    stroke-dasharray: 507;
+    stroke-dashoffset: 507;
+    animation: animateS 1.2s cubic-bezier(.68,.08,.08,.07) forwards;
+}
+.N-word{
+    stroke-dasharray: 744;
+    stroke-dashoffset: 744;
+    animation: animateN 1.2s cubic-bezier(.68,.08,.08,.07) forwards;
+}
+.S-word-l1{
+    stroke-dasharray: 507;
+    stroke-dashoffset: 507;
+    animation: animateS 1.2s cubic-bezier(.68,.08,.08,.07) .5s forwards;
+}
+.N-word-l1{
+    stroke-dasharray: 744;
+    stroke-dashoffset: 744;
+    animation: animateN 1.2s cubic-bezier(.68,.08,.08,.07) .5s forwards;
+} 
+.S-word-l2{
+    stroke-dasharray: 507;
+    stroke-dashoffset: 507;
+    animation: animateS-l2 1.2s cubic-bezier(.68,.08,.08,.07) 1s forwards;
+}
+.N-word-l2{
+    stroke-dasharray: 744;
+    stroke-dashoffset: 744;
+    animation: animateN-l2 1.2s cubic-bezier(.68,.08,.08,.07) 1s forwards;
+}
+.first{
+    stroke: var(--clr-1);
+    
+}
+.second{
+    stroke: var(--clr-2);
+}
+.third{
+    stroke: var(--clr-3);
+    
+}
+
+.svg-style{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+}
+
+@keyframes animateS {
+    0%{
+        stroke-dashoffset: 507;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes animateN {
+    0%{
+        stroke-dashoffset: 744;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes animateS-l2 {
+    0%{
+        stroke-dashoffset: 507;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    /* stroke: #0781e6; */
+    /* fill: #0481e7; */
+        
+    }
+}
+@keyframes animateN-l2 {
+    0%{
+        stroke-dashoffset: 744;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    /* stroke: #0985eb; */
+    /* fill: #0882e6; */
+        
+    }
+}
+
+.defs-svg path{
+    fill: none; 
+    stroke-linecap: round; 
+    stroke-linejoin: round; 
+    stroke-width: 5px;
+}
+
+
+/* ========================================================================= */
+
+.backgound-svg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.backgound-svg .object-6{
+    transform: translate(200px, -100px);
+}

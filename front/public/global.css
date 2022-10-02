@@ -1,0 +1,14 @@
+.p-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-container{
+    width: 70vw;
+    height: 100vh;
+}
+p{
+    font-family: 'roboto';
+}

@@ -1,0 +1,39 @@
+#home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-container {
+    text-align: center;
+    color: #ffffff;
+}
+
+#copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row-reverse;
+    stroke: #48BAE3;
+}
+
+.home-container h1,
+.home-container h2,
+.home-container h3 {
+    line-height: 10vh;
+}
+
+.home-container h1 span {
+    color: #9AC71E;
+    font-family: 'Concert One';
+    font-size: 1.3em;
+}
+
+.home-container p {
+    font-size: 1em;
+    color: #bbcdff;
+    /* color: #94a7cf; */
+}

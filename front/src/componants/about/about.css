@@ -1,0 +1,19 @@
+
+#about{
+    height: 100vh;
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+}
+#about .about-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#about .main-content{
+    display: flex;
+}
+
+
+
+
