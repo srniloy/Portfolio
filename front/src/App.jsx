@@ -5,6 +5,8 @@ import { Studies } from './componants/studies/Studies';
 import { primaryBackgroundColor } from './values/Values';
 import './App.css'
 
+// Niloy
+
 const SvgDesign = ()=>{
     return(
         <svg className="svg-style" viewBox="283.787 139.221 174.761 115.8" width="174.761" height="115.8">
